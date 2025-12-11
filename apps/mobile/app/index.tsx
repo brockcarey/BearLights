@@ -88,13 +88,13 @@ export default function App() {
             {uri ? (
               <Image
                 source={{ uri }}
-                style={{ width: 64, height: 64, borderRadius: 32, marginRight: 12, backgroundColor: "#eee" }}
+                style={{ width: 128, height: 128, borderRadius: 32, marginRight: 12, backgroundColor: "#eee" }}
                 resizeMode="cover"
                 // onLoad={() => console.log("Image loaded:", uri)}
                 onError={(e) => console.warn("Image load error:", uri, e.nativeEvent)}
               />
             ) : (
-              <View style={{ width: 64, height: 64, borderRadius: 32, marginRight: 12, backgroundColor: "#ddd" }} />
+              <View style={{ width: 128, height: 128, borderRadius: 32, marginRight: 12, backgroundColor: "#ddd" }} />
             )}
             <Text>#{p.jersey_number} {p.full_name} - {p.position}</Text>
           </View>
