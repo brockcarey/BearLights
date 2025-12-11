@@ -1,0 +1,15 @@
+{
+  "name": "bearlights",
+  "version": "1.0.0",
+  "description": "Player basketball/football stats and highlights throughout the season",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^2.6.3"
+  }
+}
